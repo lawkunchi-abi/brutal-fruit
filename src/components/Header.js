@@ -31,12 +31,12 @@ s
                                           <div className="row">
                                                 <div className="col-md-3">
                                                       <div className="nav-item">
-                                                            <Link to="/">Home</Link>
+                                                            <Link to="/brutal-fruit">Home</Link>
                                                       </div>
                                                 </div>
                                                 <div className="col-md-5">
                                                       <div className="nav-item">
-                                                            <Link to="/store-locator">Store Locator</Link>
+                                                            <Link to="/brutal-fruit/store-locator">Store Locator</Link>
                                                       </div>
                                                 </div>
                                           
