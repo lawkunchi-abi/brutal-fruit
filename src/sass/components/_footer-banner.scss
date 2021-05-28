@@ -1,0 +1,25 @@
+.footer-banner {
+      height: 469px;
+      background-repeat: no-repeat;
+      background-size:140%;
+      background-position: center center;
+      margin-top: 50px;
+      padding-top: 80px;
+
+      h1 {
+            font-size: 45px;
+            color: $white;
+            text-transform: uppercase;
+            font-family: Cocogoose;
+            margin-top: 100px;
+      }
+
+}
+
+@media (min-width: 300px )and (max-width: 700px) {
+      .footer-banner {
+            background-size: auto 110%;
+      padding-top: 20px;
+
+      }
+}

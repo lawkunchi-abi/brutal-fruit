@@ -1,0 +1,159 @@
+
+.home-slider {
+      height: 80vh;
+      text-align: center;
+
+      .home-slider-item {
+            position: relative;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size:110%;
+            min-height: 663px !important;
+            background-position: center center;
+
+            .home-slider-item-content {
+                  position: absolute;
+                  height: 380px;
+                  width: 900px;
+                  right: 200px;
+                  top: 220px;
+            }
+
+            h3 {
+                  font-size: 63px;
+                  text-transform: uppercase;
+                  color: $white;
+                  font-family:  Gilroy Light;
+                  letter-spacing: 12px;
+            }
+
+            h1 {
+                  font-size: 87px;
+                  color: $pink;
+                  text-transform: uppercase;
+                  font-family:  Gilroy Bold;
+                  letter-spacing: 26px;
+            }
+
+            h6 {
+                  text-transform: uppercase;
+                  color: $white;
+                  font-family:  Gilroy;
+                  letter-spacing: 5px;
+            }
+      }
+
+    
+
+      .home-slider-arrows {
+
+            .arrow {
+                  background: $pink;
+                  height: 3px;
+                  width: 60px;
+                  margin: 0 auto;
+                  position: absolute;
+                  top: 35%;
+                  cursor: pointer;
+
+                  &.arrow-next {
+                        right: 20px;
+
+                        &:before,
+                        &:after {
+                        content: "";
+                        background: $pink;
+                        position: absolute;
+                        height: 3px;
+                        width: 35px;
+                        }
+                  
+                        &:before {
+                        right: -5px;
+                        bottom: -12px;
+                        transform: rotate(-45deg);
+                        }
+                  
+                        &:after {
+                        right: -5px;
+                        top: -12px;
+                        transform: rotate(45deg);
+                        }
+                  }
+
+                  &.arrow-prev {
+                        left: 20px;
+                
+                        &:before,
+                        &:after {
+                        content: "";
+                        background: $pink;
+                        position: absolute;
+                        height: 3px;
+                        width: 35px;
+                        }
+                  
+                        &:before {
+                        left: -5px;
+                        bottom: -12px;
+                        transform: rotate(45deg);
+                        }
+                  
+                        &:after {
+                        left: -5px;
+                        top: -12px;
+                        transform: rotate(-45deg);
+                        }
+                  }
+                }
+
+            .home-prev {
+                  position:absolute;
+                  top: 40%;
+                  left: 0;
+            }
+            
+            .home-next {
+                  top: 40%;
+                  position: absolute;
+                  right: 0;
+            }
+      }
+}
+
+@media (min-width: 300px )and (max-width: 1200px) {
+      .home-slider {
+            display: none;
+
+            .mobile-banner {
+                  
+            }
+
+            .home-slider-item {
+                  position: relative;
+                  height: 100%;
+                  background-repeat: no-repeat;
+                  background-size: auto;
+                  min-height: 100px !important;
+                  background-position: 0;
+            }
+
+            .home-slider-item-content {
+                  position: relative;
+                  width: 100px;
+                  border: 1px solid red;
+                  display: none;
+            }
+      }
+}
+
+@media (min-width: 1200px )and (max-width: 1500px) {
+     .page-gradient {
+           margin-top: -170px;
+     }
+
+     .home-slider-item-content {
+           right: 0 !important;
+           top: 150px !important
+      }
+}

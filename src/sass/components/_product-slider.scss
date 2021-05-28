@@ -1,0 +1,242 @@
+.product-slider {
+      width: 87%;
+      margin: 0 auto;
+      height: 782px;
+      background-repeat: no-repeat;
+      background-size:100% auto;
+      background-position: center center;
+      position: relative;
+      padding-top: 150px;
+      margin-top: 50px;
+
+      h3 {
+            font-size: 30px;
+            font-family: Cocogoose Light;
+      }
+
+
+      .slider-arrows {
+            button{
+                  position: absolute;
+                  top: 50%;
+            }
+
+            .prev {
+                  left: 40px;
+            }
+            .next {
+                  right: 40px;
+            }
+
+            .arrow {
+                  background: $white;
+                  height: 3px;
+                  width: 25px;
+                  margin: 0 auto;
+                  position: absolute;
+                  top: 50%;
+                  cursor: pointer;
+
+                  &.arrow-next {
+                        right: 20px;
+
+                        &:before,
+                        &:after {
+                        content: "";
+                        background: $white;
+                        position: absolute;
+                        height: 3px;
+                        width: 15px;
+                        }
+                  
+                        &:before {
+                        right: -1px;
+                        bottom: -6px;
+                        transform: rotate(-45deg);
+                        }
+                  
+                        &:after {
+                        right: -1px;
+                        top: -6px;
+                        transform: rotate(45deg);
+                        }
+                  }
+
+                  &.arrow-prev {
+                        left: 20px;
+                
+                        &:before,
+                        &:after {
+                        content: "";
+                        background: $white;
+                        position: absolute;
+                        height: 3px;
+                        width: 15px;
+                        }
+                  
+                        &:before {
+                        left: -1px;
+                        bottom: -6px;
+                        transform: rotate(45deg);
+                        }
+                  
+                        &:after {
+                        left: -1px;
+                        top: -6px;
+                        transform: rotate(-45deg);
+                        }
+                  }
+                }
+      }
+
+
+      .product-slider-item {
+            // width: 100%;
+            .product-slider-item-image {
+                  // margin-top: 100px;
+                  width: 100%;
+                  margin-left: 200px;
+
+                  img {
+                        width: 350px;
+                  }
+            }
+
+            .product-slider-item-content {
+                  margin-top: 120px;
+                  margin-right: 200px;
+                  .product-title {
+                        font-size: 22px;
+                        text-transform: uppercase;
+                        color: $white;
+                        font-family: Cocogoose Light;
+                  }
+      
+                  .product-description{
+                        font-size: 16px;
+                        color: $medium-light-pink;
+                        margin-top: 30px;
+                        font-family: Gilroy;
+                  }
+      
+                  table {
+                        margin-top: 40px;
+                        thead {
+                              td {
+                                    font-size: 27px;
+                                    text-align: center;
+                                    color: $white;
+                                    font-family: Gilroy Bold;
+                              }
+                        }
+                        tbody {
+                              td {
+                                    font-size: 10px;
+                                    color: $medium-light-pink;
+                                    width: 70px;
+                                    text-align: center;
+                                    font-family: Gilroy;
+                              }
+                        }
+                  }
+            }
+            
+
+      } 
+}
+
+@media (min-width: 300px )and (max-width: 1024px) {
+      .product-slider  {
+            width: 100%;
+            height: unset;
+            background-size: 100000% auto;
+
+            .slider-arrows {
+                  button{
+                        position: absolute;
+                        top: 50%;
+                  }
+
+                  .prev {
+                        left: 10px;
+                  }
+                  .next {
+                        right: 10px;
+                  }
+            }
+
+            .product-slider-item {
+                  width:300px;
+                  margin: 0 auto;
+                  .product-slider-item-image {
+                        width: 300px;
+                        margin: unset;
+                        margin: 0 auto;
+                        display: flex;
+                        img {
+                              width: 250px;
+                              margin: 0 auto !important;
+                        }
+                  }
+      
+                  .product-slider-item-content {
+                        margin-top: unset;
+                        margin-right: unset;
+                        width: 100%;
+                        .product-title {
+                              width: 100%;
+                              margin: 0 auto;
+                              text-align: center;
+                        }
+            
+                        .product-description{
+                              width: 100%;
+                              margin: 0 auto;
+                              text-align: center;
+                              padding-bottom: 30px;
+
+                              
+                        }
+
+                        .product-nutrients {
+                              h5 {
+                                    font-size: 27px;
+                                    text-align: center;
+                                    color:$white;
+                              }
+                              p {
+                                    font-size: 10px;
+                                    text-align: center;
+                                    color: $medium-light-pink;
+                                    width: 56px;
+                              }
+                        }
+            
+                        table {
+                              display: none;
+                        }
+                  }
+                  
+      
+            } 
+      }
+}
+
+@media (min-width: 1200px )and (max-width: 1500px) {
+      .product-slider  {
+
+            .product-slider-item {
+                  .product-slider-item-image {
+                        img {
+                              width: 250px;
+                        }
+                  }
+
+                  .product-slider-item-content {
+                        margin-top: 50px;
+                  }
+      
+            } 
+      }
+}
+

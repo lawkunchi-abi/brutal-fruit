@@ -1,0 +1,157 @@
+.page-header {
+      width: 100%;
+      height: 122px;
+      position: absolute;
+      top: 0;
+      z-index: 2;
+      overflow: hidden;
+
+      .logo {
+            height: 40px;
+            width: 250px;
+            position: absolute;
+            top: 40px;
+            width: 250px;
+            img {
+                  width: 250px;
+            }
+      }
+
+      .nav-item {
+            position: absolute;
+            top: 50px;
+            a {
+                  font-size: 17px;
+                  color: $white;
+                  letter-spacing: 1.7px;
+                  text-transform: uppercase;
+                  cursor: pointer;
+                  font-family: Cocogoose;
+                  text-decoration: none;
+                  &:hover {
+                        color: $white;
+                        border-bottom: 3px solid $dark-pink;
+                        transition: ease-in-out 0.1s;
+                  }
+
+                  &:active {
+                        border-bottom: 3px solid $dark-pink;
+                        text-decoration: none;
+                  }
+            }
+
+            button {
+                  color: $darkest-pink;
+                  width: 240px;
+                  position: absolute;
+                  top: 0;
+            }
+
+            &.nav-button {
+                  top: 38px !important;
+            }
+      }
+      
+}
+
+
+@media (min-width: 300px )and (max-width: 1339px) {
+      .page-header {
+            height: 100vh;
+            width: 100%;
+            // background-color: $dark-pink;
+
+            .logo {
+                  width: 150px;
+
+                  img {
+                        width: 150px;
+                  }
+            }
+
+            .humburger {
+                  position: absolute;
+                  top: 40px;
+                  right: 50px;
+                  z-index: 1;
+
+                  .bar1, .bar2, .bar3 {
+                        width: 50px;
+                        height: 3px;
+                        background-color:$darkest-pink;
+                        margin: 6px 0;
+                        transition: 0.4s;
+                        // &:after{
+                        //       content: "";
+                        //       width: 50px;
+                        //       height: 3px;
+                        //       display: block;
+                        //       background-color: $darkest-pink;
+                        //       margin-bottom: 5px;
+                        // }
+                  }
+                  
+            }
+
+            .opened {
+                  
+                  .bar1 {
+                        -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+                        transform: rotate(-45deg) translate(-6px, 6px);
+                  }
+                  .bar2 {opacity: 0;}
+
+                  .bar3 {
+                        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+                        transform: rotate(45deg) translate(-7px, -7px);
+                  }
+            }
+                  
+            
+            .humburger-items {
+                  width: 100%;
+                  background-color: $dark-pink;
+                  padding-bottom: 200px;
+                  .humburger-close {
+                        span {
+                              &:after {
+                                    content: "";
+                                    width: 50px;
+                                    height: 3px;
+                                    display: block;
+                                    margin: 0 auto;
+                                    margin-top: 20px;
+                                    background-color: $darkest-pink;
+                                    margin-bottom: 5px;
+                              }
+                        }
+                  }
+
+                  .nav-item {
+                        position: relative;
+                        top: unset;
+                        margin-top: 120px;
+                        a{
+                              font-size: 17px;
+                              color: $white;
+                              letter-spacing: 1.7px;
+                              text-transform: uppercase;
+                              cursor: pointer;
+                              font-family: Cocogoose;
+                              &:hover {
+                                    color: $white;
+                              }
+                        }
+
+                        button {
+                              position: relative;
+                        }
+            
+                      
+                  }
+                  
+            }
+      }
+      
+      
+}

@@ -1,0 +1,119 @@
+.page-footer {
+      background: $black;
+      color: $white;
+      position: relative;
+      padding-top: 60px;
+      padding-bottom: 60px;
+
+      .footer-container {
+            width: 85%;
+            .footer-divider{
+                  border-bottom: 1px solid grey;
+            }
+      
+            .footer-item {
+                  border-right: 1px solid grey;
+                  text-align: center;
+                  width: 180px;
+                  height: 30px;
+
+                  a {
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        font-family: Cocogoose;
+                        cursor: pointer;
+                       
+                  }
+
+                  &.mr-none {
+                        border-right: none;
+                  }
+                
+            }
+
+            .tap-logo {
+                  width: 400px;
+
+                  img {
+                        width: inherit;
+                  }
+            }
+
+            .social-icons  {
+                  width: 250px;
+                  float: right;
+                  .social-icon {
+
+                        a {
+                              cursor: pointer;
+                        }
+                        img {
+                              width: 30px;
+                              height: 30px;
+                              
+                        }
+                        
+                  }
+            }
+           
+
+            .abi-text {
+                  p {
+                        font-size: 12px;
+                  }
+            }
+      }
+
+    
+}
+
+@media (min-width: 300px )and (max-width: 1200px) {
+      .page-footer {
+            text-align: center;
+            
+            .footer-divider{
+                  display: none;
+            }
+
+            .footer-items {
+                  margin-top: 30px;
+                  .footer-item {
+                        border-right: none !important;
+                        width: unset !important;
+                        height: unset;
+      
+                        a {
+                              font-size: 12px;
+                              text-transform: uppercase;
+                              font-family: Cocogoose;
+                              cursor: pointer;
+                             
+                        }
+                      
+                  }
+            }
+
+            .tap-logo {
+                  width: 200px !important;
+                  margin: 0 auto;
+
+                  img {
+                        width: inherit;
+                  }
+            }
+            .social-icons {
+                  width: 200px;
+                  margin: 0 auto;
+                  margin-top: 30px;
+                  float: none !important;
+            }
+
+            .abi-text {
+                  margin-top: 30px;
+                  p {
+                        font-size: 12px;
+                  }
+            }
+      }
+      
+}
