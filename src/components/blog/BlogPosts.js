@@ -25,15 +25,15 @@ export default class BlogPosts extends Component {
 
                              <div className="row">
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-md" title="Our Products" subTitle="Meet our new BFF" />
+                                                <BlogItem itemClass = "blog-item-md" title="Our Products" subTitle="Meet our new BFF" image="images/img-02.png" />
                                     </div>
 
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-sm" title="Beauty" subTitle="Get that glow, girl"/>
+                                                <BlogItem itemClass = "blog-item-sm" title="Beauty" subTitle="Get that glow, girl" image="images/bg-agegate.jpg"/>
                                     </div>
 
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-lg"title="Taste" subTitle="Brunch with the bae" />
+                                                <BlogItem itemClass = "blog-item-lg"title="Taste" subTitle="Brunch with the bae" image="images/img-01.png"/>
                                     </div>
                              </div>
                        </div>
@@ -42,15 +42,15 @@ export default class BlogPosts extends Component {
 
                              <div className="row">
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-sm" title="" subTitle="How to be the hostes with the mostest"/>
+                                                <BlogItem itemClass = "blog-item-sm" title="" subTitle="How to be the hostes with the mostest"   image="images/img-03.png"/>
                                     </div>
 
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-lg" title="The Suite" subTitle="BECOME AN EXCLUSIVE MEMBER TO THE SUITE"/>
+                                                <BlogItem itemClass = "blog-item-lg" title="The Suite" subTitle="BECOME AN EXCLUSIVE MEMBER TO THE SUITE"  image="images/img-01.png"/>
                                     </div>
 
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-sm" title="Our Products" subTitle="You can call her, Ruby"/>
+                                                <BlogItem itemClass = "blog-item-sm" title="Our Products" subTitle="You can call her, Ruby"  image="images/img-03.png"/>
                                     </div>
                              </div>
                        </div>
@@ -67,7 +67,7 @@ export default class BlogPosts extends Component {
                                     </div>
 
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-md" title="Travel" subTitle="WUNDERLUST?JOIN THE SUITE TO RECEIVE TRAVEL VOUCHERS"/>
+                                                <BlogItem itemClass = "blog-item-md" title="Travel" subTitle="WUNDERLUST?JOIN THE SUITE TO RECEIVE TRAVEL VOUCHERS" image="images/bg-agegate.jpg"/>
                                     </div>
                              </div>
                        </div>

@@ -16,6 +16,9 @@ export default class BlogItem extends Component {
             }
 
             let imageUrl = "images/img-01.png";
+            if(this.props.image) {
+                  imageUrl = this.props.image;
+            }
 
             return (
 
