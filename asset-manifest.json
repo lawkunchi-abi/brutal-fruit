@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/brutal-fruit/static/css/main.923e4d2e.chunk.css",
-    "main.js": "/brutal-fruit/static/js/main.7f22818c.chunk.js",
-    "main.js.map": "/brutal-fruit/static/js/main.7f22818c.chunk.js.map",
+    "main.css": "/brutal-fruit/static/css/main.46b55104.chunk.css",
+    "main.js": "/brutal-fruit/static/js/main.deb3372a.chunk.js",
+    "main.js.map": "/brutal-fruit/static/js/main.deb3372a.chunk.js.map",
     "runtime-main.js": "/brutal-fruit/static/js/runtime-main.0414ee35.js",
     "runtime-main.js.map": "/brutal-fruit/static/js/runtime-main.0414ee35.js.map",
     "static/js/2.de5e7d67.chunk.js": "/brutal-fruit/static/js/2.de5e7d67.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.c2729e36.chunk.js": "/brutal-fruit/static/js/3.c2729e36.chunk.js",
     "static/js/3.c2729e36.chunk.js.map": "/brutal-fruit/static/js/3.c2729e36.chunk.js.map",
     "index.html": "/brutal-fruit/index.html",
-    "static/css/main.923e4d2e.chunk.css.map": "/brutal-fruit/static/css/main.923e4d2e.chunk.css.map",
+    "static/css/main.46b55104.chunk.css.map": "/brutal-fruit/static/css/main.46b55104.chunk.css.map",
     "static/js/2.de5e7d67.chunk.js.LICENSE.txt": "/brutal-fruit/static/js/2.de5e7d67.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/brutal-fruit/static/media/Gilroy-Light.dbbed93f.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.0414ee35.js",
     "static/js/2.de5e7d67.chunk.js",
-    "static/css/main.923e4d2e.chunk.css",
-    "static/js/main.7f22818c.chunk.js"
+    "static/css/main.46b55104.chunk.css",
+    "static/js/main.deb3372a.chunk.js"
   ]
 }
