@@ -14,7 +14,7 @@ export default class Humburger extends Component {
 
       _ToggleMenu() {
 
-            if(this.state.menuOpen == false) {
+            if(this.state.menuOpen === false) {
                   this.setState(menuOpen => ({
                         menuOpen: true
                   }))
@@ -32,7 +32,7 @@ export default class Humburger extends Component {
 
             let {menuOpen} = this.state;
             let menuClass = "humburger";
-            if(menuOpen == true) {
+            if(menuOpen === true) {
                   menuClass += " opened";
             }
 

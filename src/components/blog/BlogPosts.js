@@ -1,22 +1,11 @@
 import React, { Component } from 'react';
-// import PropTypes from 'prop-types';
 import BlogItem from './BlogItem';
 
 export default class BlogPosts extends Component {
 
 
-  	constructor(props) {
-            super(props);
-      }
-
       render() {
 
-            const {
-                  props: {
-                        children,
-                  },
-                 
-            } = this;
             return (
 
         	<div className="blog-items">
@@ -25,15 +14,15 @@ export default class BlogPosts extends Component {
 
                              <div className="row">
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-md" title="Our Products" subTitle="Meet our new BFF" image="images/img-02.png" />
+                                                <BlogItem itemClass = "blog-item-md" title="Our Products" subTitle="Meet our new BFF" image="/brutal-fruit/images/img-02.png" />
                                     </div>
 
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-sm" title="Beauty" subTitle="Get that glow, girl" image="images/bg-agegate.jpg"/>
+                                                <BlogItem itemClass = "blog-item-sm" title="Beauty" subTitle="Get that glow, girl" image="/brutal-fruit/images/bg-agegate.jpg"/>
                                     </div>
 
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-lg"title="Taste" subTitle="Brunch with the bae" image="images/img-01.png"/>
+                                                <BlogItem itemClass = "blog-item-lg"title="Taste" subTitle="Brunch with the bae" image="/brutal-fruit/images/img-01.png"/>
                                     </div>
                              </div>
                        </div>
@@ -42,15 +31,15 @@ export default class BlogPosts extends Component {
 
                              <div className="row">
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-sm" title="" subTitle="How to be the hostes with the mostest"   image="images/img-03.png"/>
+                                                <BlogItem itemClass = "blog-item-sm" title="" subTitle="How to be the hostes with the mostest"   image="/brutal-fruit/images/img-03.png"/>
                                     </div>
 
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-lg" title="The Suite" subTitle="BECOME AN EXCLUSIVE MEMBER TO THE SUITE"  image="images/img-01.png"/>
+                                                <BlogItem itemClass = "blog-item-lg" title="The Suite" subTitle="BECOME AN EXCLUSIVE MEMBER TO THE SUITE"  image="/brutal-fruit/images/img-01.png"/>
                                     </div>
 
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-sm" title="Our Products" subTitle="You can call her, Ruby"  image="images/img-03.png"/>
+                                                <BlogItem itemClass = "blog-item-sm" title="Our Products" subTitle="You can call her, Ruby"  image="/brutal-fruit/images/img-03.png"/>
                                     </div>
                              </div>
                        </div>
@@ -67,7 +56,7 @@ export default class BlogPosts extends Component {
                                     </div>
 
                                     <div className="col-md-12">
-                                                <BlogItem itemClass = "blog-item-md" title="Travel" subTitle="WUNDERLUST?JOIN THE SUITE TO RECEIVE TRAVEL VOUCHERS" image="images/bg-agegate.jpg"/>
+                                                <BlogItem itemClass = "blog-item-md" title="Travel" subTitle="WUNDERLUST?JOIN THE SUITE TO RECEIVE TRAVEL VOUCHERS" image="/brutal-fruit/images/bg-agegate.jpg"/>
                                     </div>
                              </div>
                        </div>

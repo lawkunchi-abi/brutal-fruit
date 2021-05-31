@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Route, Link, Switch } from 'react-router-dom';
 import HomeSlider from '../components/home-slider/HomeSlider.js';
 
 import BlogPosts from '../components/blog/BlogPosts.js';

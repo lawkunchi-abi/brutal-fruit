@@ -3,10 +3,6 @@ import React, { Component } from 'react';
 export default class ProductItem extends Component {
 
 
-  	constructor(props) {
-            super(props);
-      }
-
       render() {
 
       	const {
@@ -70,7 +66,7 @@ export default class ProductItem extends Component {
 
                   <div className="col-md-6">
                         <div className="product-slider-item-image">
-                              <img src={activeSlide.productImg} />
+                              <img src={activeSlide.productImg} alt="product"/>
                         </div>
                   </div>
 

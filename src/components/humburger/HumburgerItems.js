@@ -3,16 +3,12 @@ import { Link } from 'react-router-dom';
 
 export default class HumburgerItems extends Component {
 
-      constructor(props) {
-            super(props);
-
-      }
 
       render() {
 
 
                   let style = "none";
-                  if(this.props.menuOpen.menuOpen == true) {
+                  if(this.props.menuOpen.menuOpen === true) {
                         style = "block";
                   }
 

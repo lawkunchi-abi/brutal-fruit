@@ -1,6 +1,6 @@
 export const homeSliderData = [
       {
-            imageUrl: "images/img-01.png",
+            imageUrl: "/brutal-fruit/images/img-01.png",
             h3: "You Belong",
             h1: "Anywehere",
             h6: "Become An exclusive Member of  the suite",
@@ -9,7 +9,7 @@ export const homeSliderData = [
       },
 
       {
-            imageUrl: "images/img-03.png",
+            imageUrl: "/brutal-fruit/images/img-03.png",
             h3: "You Belong",
             h1: "Anywehere",
             h6: "Become An exclusive Member of  the suite",
@@ -28,8 +28,8 @@ export const productData = [
             carbohydrates: "2",
             sugar: "4.6",
             protein: '0.2',
-            productImg: 'images/pro-1.png',
-            background: 'http://localhost:3000/images/back-1.svg'
+            productImg: '/brutal-fruit/images/pro-1.png',
+            background: '/brutal-fruit/images/back-1.svg'
       },
 
       {
@@ -41,8 +41,8 @@ export const productData = [
             carbohydrates: "7",
             sugar: "7.5",
             protein: '0.2',
-            productImg: 'images/pro-2.png',
-            background: 'http://localhost:3000/images/back-2.svg'
+            productImg: '/brutal-fruit/images/pro-2.png',
+            background: '/brutal-fruit/images/back-2.svg'
       },
 
       {
@@ -54,8 +54,8 @@ export const productData = [
             carbohydrates: "7",
             sugar: "7.5",
             protein: '0.2',
-            productImg: 'images/pro-3.png',
-            background: 'http://localhost:3000/images/back-3.svg'
+            productImg: '/brutal-fruit/images/pro-3.png',
+            background: '/brutal-fruit/images/back-3.svg'
       },
 
      
@@ -66,20 +66,20 @@ export const blogData = [
       {
             title: "BRUTAL FRUIT CRANBERRY ROSE",
             subTitle: "This is an excellent addition to any casual get-together or an elegant gathering. The rose-coloured liquid offers a sophisticated blend of crisp, fresh fruity flavours and a smooth, uplifting finish. So give your night a lift, while keeping the vibe easy. Best served chilled.",
-            background: 'http://localhost:3000/images/back-1.svg'
+            background: '/brutal-fruit/images/back-1.svg'
       },
 
       {
             title: "BRUTAL FRUIT CRANBERRY ROSE",
             subTitle: "This is an excellent addition to any casual get-together or an elegant gathering. The rose-coloured liquid offers a sophisticated blend of crisp, fresh fruity flavours and a smooth, uplifting finish. So give your night a lift, while keeping the vibe easy. Best served chilled.",
-            background: 'http://localhost:3000/images/back-1.svg'
+            background: '/brutal-fruit/images/back-1.svg'
       },
 
 
       {
             title: "BRUTAL FRUIT CRANBERRY ROSE",
             subTitle: "This is an excellent addition to any casual get-together or an elegant gathering. The rose-coloured liquid offers a sophisticated blend of crisp, fresh fruity flavours and a smooth, uplifting finish. So give your night a lift, while keeping the vibe easy. Best served chilled.",
-            background: 'http://localhost:3000/images/back-1.svg'
+            background: '/brutal-fruit/images/back-1.svg'
       },
 
      

@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 
 export default class BlogItem extends Component {
 
-
-  	constructor(props) {
-            super(props);
-      }
-
       render() {
 
             let className = "blog-item ";
@@ -15,7 +10,7 @@ export default class BlogItem extends Component {
                   className += this.props.itemClass;
             }
 
-            let imageUrl = "images/img-01.png";
+            let imageUrl = "/brutal-fruit/images/img-01.png";
             if(this.props.image) {
                   imageUrl = this.props.image;
             }

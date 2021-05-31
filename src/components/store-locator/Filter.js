@@ -1,9 +1,34 @@
 import React, { Component } from 'react';
-import Map from './Map';
+import MapWrapper from './MapWrapper';
+import {storeList} from '../../brutalStores';
+import OutletList from '../../stores.json';
 
 export default class Filter extends Component {
+
+      constructor(props) {
+            super(props);
+            this.state = {
+                  province: '',
+                  stores: OutletList['OutletList'],
+                  // stores: storeList,
+            };
+        
+            this.handleChange = this.handleChange.bind(this);
+      }
+      handleChange(event) {
+            this.setState({province: event.target.value});
+            let filteredStores = OutletList['OutletList'].filter( (auto) => auto.City.includes(event.target.value));
+            this.setState({
+                  stores: filteredStores
+            })
+
+      }
+
       render() {
-            let imageUrl = "images/img-01.png";
+            let imageUrl = "brutal-fruit/images/img-01.png";
+
+            let {stores} = this.state;
+
 
             return (
 
@@ -15,7 +40,7 @@ export default class Filter extends Component {
                               <div className="container mx-auto">
                                     <div className="row">
                                           <div className="col-xl-6">
-                                                <select>
+                                                <select province={this.state.value} onChange={this.handleChange}>
                                                       <option>Province</option>
                                                       <option>Province</option>
                                                       <option>Province</option>
@@ -34,7 +59,7 @@ export default class Filter extends Component {
                               </div>
                         </div>
 
-                        <Map/>
+                        <MapWrapper stores={stores}/>
                   </div>
 
             

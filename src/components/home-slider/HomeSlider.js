@@ -24,7 +24,7 @@ export default class HomeSlider extends Component {
 
     _ToggleNext() {
 
-            if(this.state.selectedIndex == this.props.children.length - 1)
+            if(this.state.selectedIndex === this.props.children.length - 1)
             return;
 
             this.setState(prevState => ({
@@ -34,7 +34,7 @@ export default class HomeSlider extends Component {
       }
 
       _TogglePrev() {
-            if(this.state.selectedIndex == 0)
+            if(this.state.selectedIndex === 0)
                   return;
             this.setState(prevState => ({
                   selectedIndex: prevState.selectedIndex - 1
@@ -46,8 +46,6 @@ export default class HomeSlider extends Component {
       render() {
 
             let {selectedIndex, children} = this.state;
-            let imageUrl = "images/img-01.png"
-
             return (
 
                   <div className="home-slider">

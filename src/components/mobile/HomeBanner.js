@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class HomeBanner extends Component {
       render() {
 
-            let imageUrl = "images/img-01.png";
+            let imageUrl = "/brutal-fruit/images/img-01.png";
             return (
 
                   <div>
